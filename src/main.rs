@@ -9,6 +9,7 @@ mod reverse_integer;
 mod string_to_integer;
 mod palindrome;
 mod container_with_most_water;
+mod integer_to_roman;
 // mod name;
 
 fn main() {
