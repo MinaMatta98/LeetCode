@@ -11,6 +11,7 @@ mod palindrome;
 mod container_with_most_water;
 mod integer_to_roman;
 mod three_sum;
+mod remove_nth_node_from_end_of_list;
 // mod name;
 
 fn main() {
