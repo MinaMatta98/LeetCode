@@ -10,6 +10,7 @@ mod string_to_integer;
 mod palindrome;
 mod container_with_most_water;
 mod integer_to_roman;
+mod three_sum;
 // mod name;
 
 fn main() {
