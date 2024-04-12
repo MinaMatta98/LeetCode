@@ -1,6 +1,10 @@
 # LeetCode
 Sample leetcode problems implemented in RUST. Will be consistently updated.
 
+Solutions generally contain some information about time complexity and sometimes space complexity. Where optimizations are used for memoization, these are also mentioned.
+
+Solutions where BTreeMaps would be generally used for recursion are implemented correctly via an alternative logical approach.
+
 ## Problems solved
 
 ``` 
