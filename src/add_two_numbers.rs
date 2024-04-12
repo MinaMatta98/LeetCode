@@ -9,10 +9,13 @@ pub struct ListNode {
 
 impl ListNode {
     #[inline]
+    #[allow(unused_variables)]
+    #[allow(unreachable_code)]
     fn new(val: &mut [i32]) -> Self {
+        todo!();
         let mut new_vals = Vec::new();
 
-        for (index, value) in val.iter_mut().enumerate() {
+        for value in val.iter_mut() {
             let mut temp_val = *value;
 
             while temp_val > 10 {
@@ -22,22 +25,7 @@ impl ListNode {
                 } else {
                     temp_val -= 10;
                 }
-
-                //     if temp_val == 10 {
-                //         // new_vals.push(0);
-                //         if let Some(value) = new_vals.get_mut(index + 1) {
-                //             // new_vals.push(1);
-                //             *value += 1
-                //         } else {
-                //             new_vals.push(1);
-                //         }
-                //         temp_val -= 10;
-                //     } else {
-                //         new_vals.push(9);
-                //         temp_val -= 9;
-                //     }
             }
-            // new_vals.push(temp_val);
         }
 
         let mut new_list_node = ListNode {
@@ -81,8 +69,6 @@ impl AddTwoNumbers {
     }
 
     fn solution(&mut self) -> Option<Box<ListNode>> {
-        let lfinal = self.lfinal.clone();
-
         if let Some(node) = self.l1.as_mut() {
             if let Some(node2) = self.l2.as_mut() {
                 Self::append_lfinal(
@@ -128,7 +114,7 @@ mod tests {
         let l1 = ListNode::new(&mut [2, 4, 3]);
         let l2 = ListNode::new(&mut [5, 6, 4]);
         let mut add_two = AddTwoNumbers::new(Some(Box::new(l1)), Some(Box::new(l2)));
-        let two = add_two.l1.clone().unwrap().val;
+        // let two = add_two.l1.clone().unwrap().val;
         add_two.solution();
         assert_eq!(
             add_two.lfinal,

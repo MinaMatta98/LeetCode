@@ -1,5 +1,3 @@
-use std::ops::Index;
-
 #[repr(u16)]
 #[derive(Clone)]
 enum RomanChar {
