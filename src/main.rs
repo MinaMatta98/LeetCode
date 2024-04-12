@@ -13,6 +13,7 @@ mod integer_to_roman;
 mod three_sum;
 mod remove_nth_node_from_end_of_list;
 mod valid_parenthesis;
+mod generate_parenthesis;
 
 fn main() {
 }
