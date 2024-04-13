@@ -9,6 +9,8 @@ impl MergeIntervals {
 
     // Solution is really simple. If range[1][1] and range[2][2] encapsulate both range[1,2] and
     // range[2,1], this means that a new range of indexes [[1,1][2,2]] is yielded.
+    // Solution is roughly O(n) in time complexity and O(n) in space complexity, as in place
+    // removal is made.
     fn solve(&mut self) {
         // Sort the array, such that all min ranges are arranged.
         self.intervals.sort_by(|a, b| a[0].cmp(&b[0]));
