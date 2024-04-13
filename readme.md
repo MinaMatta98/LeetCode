@@ -86,3 +86,7 @@ LeetCode valid_sudoku
 ```
 LeetCode spiral_matrix
 ```
+
+```
+LeetCode merge_intervals
+```

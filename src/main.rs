@@ -39,6 +39,8 @@ mod find_first_and_last_position_in_sorted_array;
 mod valid_sudoku;
 #[allow(dead_code)]
 mod spiral_matrix;
+#[allow(dead_code)]
+mod merge_intervals;
 
 
 fn main() {}
