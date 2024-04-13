@@ -35,5 +35,7 @@ mod valid_parenthesis;
 mod zig_zag_conversion;
 #[allow(dead_code)]
 mod find_first_and_last_position_in_sorted_array;
+#[allow(dead_code)]
+mod valid_sudoku;
 
 fn main() {}
