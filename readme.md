@@ -1,6 +1,8 @@
 # LeetCode
 Sample leetcode problems implemented in RUST. Will be consistently updated.
 
+Minimum difficulty of implementation is leetcode medium.
+
 Solutions generally contain some information about time complexity and sometimes space complexity. Where optimizations are used for memoization, these are also mentioned.
 
 Solutions where BTreeMaps would be generally used for recursion are implemented correctly via an alternative logical approach.
@@ -37,10 +39,6 @@ LeetCode reverse_integer
 
 ```
 LeetCode string_to_integer 
-```
-
-```
-LeetCode palindrome 
 ```
 
 ```
