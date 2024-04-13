@@ -33,5 +33,7 @@ mod two_sum;
 mod valid_parenthesis;
 #[allow(dead_code)]
 mod zig_zag_conversion;
+#[allow(dead_code)]
+mod find_first_and_last_position_in_sorted_array;
 
 fn main() {}
