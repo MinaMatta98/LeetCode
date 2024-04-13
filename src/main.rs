@@ -14,6 +14,8 @@ mod longest_substring;
 #[allow(dead_code)]
 mod median_sorted_arrays;
 #[allow(dead_code)]
+mod next_permutation;
+#[allow(dead_code)]
 mod palindrome;
 #[allow(dead_code)]
 mod remove_nth_node_from_end_of_list;
