@@ -67,7 +67,14 @@ LeetCode valid_parenthesis
 LeetCode generate_parenthesis 
 ```
 
-
 ```
 LeetCode swap_nodes_in_pairs
+```
+
+```
+LeetCode next_permutation
+```
+
+```
+LeetCode find_first_and_last_position_in_sorted_array
 ```
