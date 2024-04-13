@@ -78,3 +78,7 @@ LeetCode next_permutation
 ```
 LeetCode find_first_and_last_position_in_sorted_array
 ```
+
+```
+LeetCode valid_sudoku
+```
