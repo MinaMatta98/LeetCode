@@ -37,5 +37,8 @@ mod zig_zag_conversion;
 mod find_first_and_last_position_in_sorted_array;
 #[allow(dead_code)]
 mod valid_sudoku;
+#[allow(dead_code)]
+mod spiral_matrix;
+
 
 fn main() {}
